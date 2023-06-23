@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM --platform=linux/amd64 node:18-alpine
 ENV PORT=3000
 
 WORKDIR app
